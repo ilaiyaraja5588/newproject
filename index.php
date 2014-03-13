@@ -6,6 +6,7 @@
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
 	header('Location: '.$uri.'/xampp/');
+	echo "Edited after forke by ilaiya";
 	exit;
 ?>
 
